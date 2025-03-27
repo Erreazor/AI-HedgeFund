@@ -1,4 +1,5 @@
 import sys
+import os
 
 from dotenv import load_dotenv
 from langchain_core.messages import HumanMessage
@@ -29,6 +30,12 @@ import json
 
 # Load environment variables from .env file
 load_dotenv()
+
+# Debug: Print which API keys are available
+print("\nAvailable API Keys:")
+for key in ["ANTHROPIC_API_KEY", "DEEPSEEK_API_KEY", "GROQ_API_KEY", "GOOGLE_API_KEY", "FINANCIAL_DATASETS_API_KEY", "OPENAI_API_KEY"]:
+    value = os.getenv(key)
+    print(f"{key}: {'✓' if value and not value.startswith('your-') else '✗'}")
 
 init(autoreset=True)
 
