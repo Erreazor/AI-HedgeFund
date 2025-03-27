@@ -14,7 +14,7 @@ An AI-powered hedge fund that uses multiple AI analysts to make investment decis
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ai-hedge-fund.git
+git clone https://github.com/erreazor/ai-hedge-fund.git
 cd ai-hedge-fund
 ```
 
