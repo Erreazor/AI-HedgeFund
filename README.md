@@ -14,8 +14,8 @@ An AI-powered hedge fund that uses multiple AI analysts to make investment decis
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/erreazor/ai-hedge-fund.git
-cd ai-hedge-fund
+git clone https://github.com/Erreazor/AI-HedgeFund.git
+cd AI-HedgeFund
 ```
 
 2. Install dependencies using Poetry:
